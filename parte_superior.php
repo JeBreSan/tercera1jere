@@ -22,11 +22,22 @@
             <a href="">Guides</a>
             <a href="">Community</a>
             <a href="">Premium</a>
-        </div>
+            </div>
         <div class="menu-derecha">
-
-        </div>
-    </div>
+    <a href="./">
+        <img src="./img/A.png" alt="" height="30">
+    </a>
+    <a href="./">
+        <img src="./img/CN.png" alt="" height="30">
+    </a>
+    <a href="./">
+        <img src="./img/CP.png" alt="" height="30">
+    </a>
+    <a href="./">
+        <img src="./img/TP.png" alt="" height="30">
+    </a>
+</div>
+</div>
 
 
 

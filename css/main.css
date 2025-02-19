@@ -33,6 +33,7 @@ menu {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+ 
 }
 
 .menu-izquierda a {
@@ -56,5 +57,16 @@ menu {
 
 
 .menu-derecha {
+    padding-right: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
 
+.menu-derecha a img:hover {
+   
+    filter: brightness(0.8);
 }
