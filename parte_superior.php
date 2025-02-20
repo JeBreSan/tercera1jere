@@ -24,18 +24,24 @@
             <a href="">Premium</a>
             </div>
         <div class="menu-derecha">
-    <a href="./">
+    <a href="./" onclick="showalert(event)">
         <img src="./img/A.png" alt="" height="30">
     </a>
-    <a href="./">
+    <a href="https://www.wowhead.com/es">
         <img src="./img/CN.png" alt="" height="30">
     </a>
-    <a href="./">
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
         <img src="./img/CP.png" alt="" height="30">
     </a>
-    <a href="./">
+    <a href="http://ucemcampus.ucem.ac.cr/index.php">
         <img src="./img/TP.png" alt="" height="30">
     </a>
+    <script>
+        function showalert(event) {
+            event.preventDefault();
+            alert("Has hecho clic en la imagen!");
+        }
+    </script>
 </div>
 </div>
 
