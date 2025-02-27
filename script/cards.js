@@ -1,15 +1,27 @@
-console.log ( 'cargando cards' )
+console.log('Cargando Cards')
 
 const dataCards = [
-{
-    "title": "Juego del año",
-        "url_image": "./img/Juego.jpeg",
+    {
+        "title": "Juego del año",
+        "url_image": "./img/goty.png",
         "desc": "Un impresionante juego",
         "cta": "Mostrar más...",
         "link": "https://www.reddit.com/r/PSVR/comments/17t5afa/best_vr_game_of_the_year_golden_joystick_award/?tl=es-419&rdt=53185"
-},
-
-
+    },
+    {
+        "title": "Juego del mes",
+        "url_image": "./img/goty.png",
+        "desc": "Este impresionante juego, hecho solo para los más exigentes, requiere de mucha habilidad y paciencia.",
+        "cta": "Mostrar más...",
+        "link": "https://www.reddit.com/r/PSVR/comments/17t5afa/best_vr_game_of_the_year_golden_joystick_award/?tl=es-419&rdt=53185"
+    },
+    {
+        "title": "Juego del día",
+        "url_image": "./img/goty.png",
+        "desc": "Este impresionante juego, hecho solo para los más exigentes, requiere de mucha habilidad y paciencia.",
+        "cta": "Mostrar más...",
+        "link": "https://www.reddit.com/r/PSVR/comments/17t5afa/best_vr_game_of_the_year_golden_joystick_award/?tl=es-419&rdt=53185"
+    },
 ];
 
 (function () {
