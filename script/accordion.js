@@ -9,7 +9,10 @@ const dataAccordion = [
     title: "Juegos Retro",
     desc: "Contamos con una gran extensión de juegos retro.",
   },
-
+  {
+    title: "Generos",
+    desc: "Contamos con variedad de generos como: Accion, MMORPG, Aventuras, Deportes y más.",
+  },
 ];
 
 (function () {

@@ -74,6 +74,7 @@ menu {
 .main-accordion-container {
     background-color: beige;
     width: 100%;
+    
 }
 
 .accordion-item {
@@ -88,12 +89,12 @@ menu {
 
 .accordion-item:hover{
     transform: scale(1.05);
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .accordion-title {
     width: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(207, 132, 34);
     height: 50px;
     font-size: 20px;
     font-weight: 500;
@@ -114,11 +115,92 @@ menu {
 
 .tab-active .accordion-desc {
     width: 100%;
-    background-color: gainsboro;
+    background-color: rgb(160, 211, 171);
     height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px 0;
+}
+
+.accordion-title:hover {
+    background-color: silver ;
+  }
+  
+  .accordion-title {
+    cursor: pointer;
+  }
+
+  .card-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  .card-item{
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 20px ;
+    box-shadow: 3px 0 0 0 black;
+  }
+  .card-item img {
+    width: 100%;
+height :auto;
+object-fit: cover;
+  }
+.card-item:hover{
+    transform: scale(1,01) translateY(-3px);
+}
+.card-info{
+    height: auto;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    margin-bottom: 20px;    
+
+}
+.card-desc{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.card-cta{
+    width: 120px;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:row;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+background-color: aqua;
+}
+.card-cta:hover{
+    transform: scale(1.01)translateX(-2px) translateY(-2px);
 }
